@@ -5,4 +5,4 @@ Componentes Jerárquicos en Angular
 <button class="btn btn-info">Enviar datos al hijo</button>
 <hr>
 
-<app-hijo [parametroEntrada]="nombre"></app-hijo>
+<app-hijo [parametroEntrada]="nombre" (parametroSalida)="nombre = $event"></app-hijo>
