@@ -1,4 +1,8 @@
-<p>home works!</p>
+Componentes Jerárquicos en Angular
+<hr>
+<h3>Este es el componente Padre</h3>
+<p>{{nombre}}</p>
+<button class="btn btn-info">Enviar datos al hijo</button>
+<hr>
 
-
-<app-hijo></app-hijo>
+<app-hijo [parametroEntrada]="nombre"></app-hijo>
