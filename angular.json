@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-comunicacion-y-jerarquia"
+    }
+  },
+  "defaultProject": "angular-comunicacion-y-jerarquia",
+  "cli": {
+    "analytics": "3113b8ca-735b-49fc-ad30-d2f4372be240"
+  }
 }
